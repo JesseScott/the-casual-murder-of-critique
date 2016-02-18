@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "The Casual Murder of Critique",
+  "description": "Replace occurences of 'Donald Trump' with the phrase 'The Casual Murder of Critique'",
+  "version": "1.0",
+
+  "icons": {
+    "16":  "icon-16.png",
+    "48":  "icon-48.png",
+    "128": "icon-128.png"
+  },
+
+  "permissions": [
+    "tabs", "webNavigation", "activeTab"
+  ],
+
+  "content_scripts": [
+    {
+        "matches": ["http://*/*"],
+        "js": ["jquery-2.1.1.min.js", "replace.js"],
+        "run_at": "document_end"
+    }
+  ]
+
+}

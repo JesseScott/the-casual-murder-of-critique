@@ -3,7 +3,7 @@
 
   "name": "The Casual Murder of Critique",
   "description": "Replace occurences of 'Donald Trump' with the phrase 'The Casual Murder of Critique'",
-  "version": "1.0",
+  "version": "1.0.1",
 
   "icons": {
     "16":  "icon-16.png",
